@@ -72,3 +72,4 @@ if(user.hasPermision("pay")) {
 用户认证成功以后 在服务端生成用户相关的数据保存在session 发给客户端的session_id保存在cookie中, 这样客户端请求时带上session_id就可以验证服务端是否存在
 session数据 以此完成用户的合法校验. 当用户退出系统或者session过期销毁时 客户端的session_id也就无效了.
 
+基于Session的认证机制由Servlet的规范定制 Servlet容器已经实现 用户通过HttpSession的操作方法即可实现
