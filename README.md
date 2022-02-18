@@ -1,6 +1,8 @@
 # Oauth2-Demo
 A demo project for OAuth2.0
 
+## Session Based Authentication and Authorization
+
 什么是认证: 输入账号密码 登陆应用的过程就是认证
 
 为什么要认证: 保护系统的隐私数据与资源 用户的身份合法才可以访问系统的资源
