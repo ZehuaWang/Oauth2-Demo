@@ -84,3 +84,9 @@ session数据 以此完成用户的合法校验. 当用户退出系统或者sess
 增加权限数据 需要在UserDto里增加权限属性 用于表示该登录用户所拥有的权限
 
 ## Spring Security
+
+Spring Security 提供认证授权拦截的功能 不需要独立定义拦截器
+
+Spring Security 提供了用户密码登陆 退出 会话管理等认证功能 只需要配置即可使用
+
+在config包下定义WebSecurityConfig 安全配置的内容包括 用户信息 密码编码器 安全拦截机制
