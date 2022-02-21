@@ -90,3 +90,5 @@ Spring Security 提供认证授权拦截的功能 不需要独立定义拦截器
 Spring Security 提供了用户密码登陆 退出 会话管理等认证功能 只需要配置即可使用
 
 在config包下定义WebSecurityConfig 安全配置的内容包括 用户信息 密码编码器 安全拦截机制
+
+实现授权需要对用户的访问进行拦截校验 校验用户的权限是否可以操作指定的资源 Spring Security默认提供授权实现方法
