@@ -92,3 +92,7 @@ Spring Security 提供了用户密码登陆 退出 会话管理等认证功能 �
 在config包下定义WebSecurityConfig 安全配置的内容包括 用户信息 密码编码器 安全拦截机制
 
 实现授权需要对用户的访问进行拦截校验 校验用户的权限是否可以操作指定的资源 Spring Security默认提供授权实现方法
+
+## SpringBoot 集成
+
+使用spring-boot-starter-security用于开发Spring Security 应用
