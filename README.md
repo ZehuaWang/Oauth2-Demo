@@ -96,3 +96,7 @@ Spring Security 提供了用户密码登陆 退出 会话管理等认证功能 �
 ## SpringBoot 集成
 
 使用spring-boot-starter-security用于开发Spring Security 应用
+
+Spring Security 所解决的问题就是安全访问控制. 而安全访问控制功能其实就是对所有进入系统的请求进行拦截, 校验每个请求是否能访问它所期望的资源. 可以通过Filter或者AOP来实现.
+
+Spring Security对Web资源的保护是靠Filter来实现的.
