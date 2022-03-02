@@ -103,4 +103,4 @@ Spring Security对Web资源的保护是靠Filter来实现的. Authentication Man
 
 Spring Security 认证流程
 
-
+![image](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/Spring-Security-Auth-Flow.png)
