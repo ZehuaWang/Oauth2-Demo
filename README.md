@@ -106,3 +106,8 @@ Spring Security 认证流程
 ![image](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/Spring-Security-Auth-Flow.png)
 
 采用BCrypt加密算法 encoder 每次加密后的字符串不同 增加安全性
+
+授权流程
+
+SpringSecurity 通过http.authorizeRequest()对web请求进行授权保护. Spring Security 使用标准的Filter对Web请求进行拦截 最终实现对资源的授权访问
+
