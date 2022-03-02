@@ -105,4 +105,4 @@ Spring Security 认证流程
 
 ![image](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/Spring-Security-Auth-Flow.png)
 
-采用BCrypt加密算法 encoder
+采用BCrypt加密算法 encoder 每次加密后的字符串不同 增加安全性
