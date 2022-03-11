@@ -114,3 +114,11 @@ SpringSecurity 通过http.authorizeRequest()对web请求进行授权保护. Spri
 ![image](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/Spring-Security-Authorization.png)
 
 授权的方式包括 web授权 方法授权 web授权是通过url拦截进行授权 方法授权是通过方法拦截进行授权 都会调用accessDecisionManager进行决策 
+
+基于web的授权 -> 给 http.authorizeRequests()添加多个子节点来定制需求到url. 
+
+http.authorizeRequests().anyMatchers("/r/r1").hasAuthority("p1")
+
+方法授权 -> 在controller加注释 @PreAuthorize @PostAuthorize @Secured 三类注解
+
+在方法上添加注解就会限制对该方法的访问. Spring Security 的原生注释支持为该方法定义了一组属性. 这些将被传递给AccessDecisionManager做决定
