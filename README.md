@@ -112,3 +112,5 @@ Spring Security 认证流程
 SpringSecurity 通过http.authorizeRequest()对web请求进行授权保护. Spring Security 使用标准的Filter对Web请求进行拦截 最终实现对资源的授权访问
 
 ![image](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/Spring-Security-Authorization.png)
+
+授权的方式包括 web授权 方法授权 web授权是通过url拦截进行授权 方法授权是通过方法拦截进行授权 都会调用accessDecisionManager进行决策 
