@@ -122,3 +122,4 @@ http.authorizeRequests().anyMatchers("/r/r1").hasAuthority("p1")
 方法授权 -> 在controller加注释 @PreAuthorize @PostAuthorize @Secured 三类注解
 
 在方法上添加注解就会限制对该方法的访问. Spring Security 的原生注释支持为该方法定义了一组属性. 这些将被传递给AccessDecisionManager做决定
+
