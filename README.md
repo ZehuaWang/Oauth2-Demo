@@ -180,3 +180,9 @@ token令牌可以存储客户的姓名 权限等信息
 分布式系统认证技术方案:
 
 ![session auth](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/auth-structure.png)
+
+根据选型的分析 决定采用基于token的认证方式 优点是:
+
+1. 适合统一的认证机制 客户端 一方应用 三方应用都遵循一直的认证机制
+2. token认证方式对第三方应用接入更适合 因为它更开放 可以使用当前流行的Oauth2.0 JWT等
+3. 一般情况下 客户端无需存储会话信息 减轻了服务端的压力
