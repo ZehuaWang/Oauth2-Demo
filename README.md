@@ -228,4 +228,8 @@ OAuth2.0的服务提供方涵盖两个服务 即授权服务和资源服务 使�
 
 授权服务: 应包含对接入端以及登入用户的合法性进行验证并颁发token等功能
 
+AuthorizationEndpoint: 服务于认证请求 默认URL: /oauth/authorize
+
+TokenEndpoint: 服务于访问令牌的请求 默认URL: /oauth/token
+
 资源服务: 应包含对资源的保护功能 对非法请求进行拦截 对请求中的token进行解析鉴权等.
