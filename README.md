@@ -157,3 +157,4 @@ http.authorizeRequests().anyMatchers("/r/r1").hasAuthority("p1")
 在分布式的环境下 基于session的认证会出现一个问题 每个应用都需要在session中存储用户的身份信息 通过负载均衡将本地的请求分配到另一个应用服务器需要将
 session信息带过去 否则需要重新认证
 
+![session auth](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/session-based-auth.png)
