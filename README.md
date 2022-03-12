@@ -200,3 +200,7 @@ OAuth2.0 是OAuth协议的延续版本 但是不会向后兼容OAuth1.0
 用户信息的拥有者是用户本人 微信需要经过用户的同意方可为黑马程序员生成令牌 黑马程序员网站拿此令牌方可从微信获取用户的信息
 
 ![oauth-flow](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/oauth-flow.png)
+
+官方协议流程:
+
+
