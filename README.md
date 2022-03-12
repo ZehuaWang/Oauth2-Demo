@@ -219,3 +219,9 @@ client_id 客户端标识
 client_secret: 客户端密钥
 
 因此准确来说 授权服务器对两种OAuth2.0中的两个角色进行认证授权 分别是资源拥有者 客户端
+
+实战:
+
+采用 Spring Cloud Security OAuth2框架
+
+OAuth2.0的服务提供方涵盖两个服务 即授权服务和资源服务 使用Spring Security OAuth2的时候可以选择把他们在同一个应用程序中实现 也可以选择建立使用同一个授权服务的多个资源服务
