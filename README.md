@@ -176,3 +176,6 @@ Session 集中存储: 将session存入分布式的缓存 所有的服务器实�
 token令牌可以存储客户的姓名 权限等信息
 
 ![session auth](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/token-based-auth.png)
+
+分布式系统认证技术方案:
+
