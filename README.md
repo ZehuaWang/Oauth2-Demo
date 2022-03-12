@@ -203,4 +203,4 @@ OAuth2.0 是OAuth协议的延续版本 但是不会向后兼容OAuth1.0
 
 官方协议流程:
 
-
+![oauth-flow](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/official-flow.png)
