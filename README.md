@@ -233,3 +233,13 @@ AuthorizationEndpoint: 服务于认证请求 默认URL: /oauth/authorize
 TokenEndpoint: 服务于访问令牌的请求 默认URL: /oauth/token
 
 资源服务: 应包含对资源的保护功能 对非法请求进行拦截 对请求中的token进行解析鉴权等.
+
+分别创建uaa授权服务和order订单资源服务
+
+认证流程如下:
+
+1. 客户端请求UAA授权服务进行认证
+2. 认证通过后由UAA颁发令牌
+3. 客户端携带令牌Token请求资源服务
+4. 资源服务校验令牌的合法性 合法即返回资源信息
+
