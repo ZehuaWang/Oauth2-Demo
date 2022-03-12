@@ -158,3 +158,11 @@ http.authorizeRequests().anyMatchers("/r/r1").hasAuthority("p1")
 session信息带过去 否则需要重新认证
 
 ![session auth](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/session-based-auth.png)
+
+Session 复制: 各台应用服务器之间同步session 使session保持一致 对外透明
+
+Session 黏贴: 当用户访问集群中某台服务器后 强制指定后续的所有请求落到此台机器
+
+Session 集中存储: 将session存入分布式的缓存 所有的服务器实例将统一从分布式缓存中提取session
+
+总体来讲 基于session的认证方式 可以更好的在服务端对会话进行控制 且安全性高. 但是 session机制方式给予cookie 在移动端不能有效使用 且无法跨域.
