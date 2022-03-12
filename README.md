@@ -179,3 +179,4 @@ token令牌可以存储客户的姓名 权限等信息
 
 分布式系统认证技术方案:
 
+![session auth](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/auth-structure.png)
