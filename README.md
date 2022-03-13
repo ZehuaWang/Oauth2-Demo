@@ -243,3 +243,7 @@ TokenEndpoint: 服务于访问令牌的请求 默认URL: /oauth/token
 3. 客户端携带令牌Token请求资源服务
 4. 资源服务校验令牌的合法性 合法即返回资源信息
 
+授权服务器的配置
+
+令牌管理: AuthorizationServerTokenServices 接口定义了一些操作 可以对令牌进行必要的管理. 令牌可以被用来加载身份信息 里面包含了令牌的相关权限
+
