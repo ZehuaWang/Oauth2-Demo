@@ -252,3 +252,19 @@ Oauth2的四种模式
 1. 授权码模式
 
 ![oauth-code](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/auth-code.png)
+
+资源拥有者打开客户端 客户端要求资源拥有者给予授权 它将浏览器重新定向到授权服务器, 重定向时会附加客户端的身份信息.
+
+/uaa/oauth/authorize?client_id=c1&response_type=code&scopre=all&redirect_uri=http://www.baidu.com
+
+client_id: 客户端准入标识
+
+response_type： 授权码模式固定code
+
+scope: 客户端权限
+
+redirect_url: 跳转uri 当授权码申请成功后会跳转到此地址 并在后边带上code参数
+
+浏览器出现向授权服务器授权页面 之后将用户同意授权
+
+授权服务器将授权码转经过浏览器发送给client
