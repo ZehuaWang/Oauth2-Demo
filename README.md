@@ -250,3 +250,5 @@ TokenEndpoint: 服务于访问令牌的请求 默认URL: /oauth/token
 Oauth2的四种模式
 
 1. 授权码模式
+
+![oauth-code](https://github.com/ZehuaWang/Oauth2-Demo/blob/main/IMG/auth-code.png)
