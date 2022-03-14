@@ -247,3 +247,6 @@ TokenEndpoint: 服务于访问令牌的请求 默认URL: /oauth/token
 
 令牌管理: AuthorizationServerTokenServices 接口定义了一些操作 可以对令牌进行必要的管理. 令牌可以被用来加载身份信息 里面包含了令牌的相关权限
 
+Oauth2的四种模式
+
+1. 授权码模式
