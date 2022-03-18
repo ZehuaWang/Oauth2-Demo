@@ -293,3 +293,21 @@ token的参数名称为: Authorization, 值为: Bearer token 值
 JSON WEB Token 是一个开放的标准 定义了简洁 自包含的协议个格式 用于在通信双方传递json对象 传递的信息经过数字签名可以被验证和信任. JWT可以使用
 HMAC算法或使用RSA的公钥/私钥来签名 防止篡改
 
+JWT令牌优点:
+
+基于JSON 方便解析
+
+可以在令牌中自定义内容 意扩展
+
+通过非对称加密算法以及数字签名技术 安全性高
+
+资源服务使用JWT可以不依赖认证服务 即可完成授权
+
+缺点:
+
+JWT令牌较长 占用存储空间大
+
+结构:
+
+Header Payload Signature
+
