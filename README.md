@@ -272,3 +272,9 @@ redirect_url: 跳转uri 当授权码申请成功后会跳转到此地址 并在�
 客户端拿着授权码向服务器所要access_token
 
 客户端拿到access_token 访问资源
+
+请求资源:
+
+按照Oauth2.0的协议要求 请求资源需要携带token 如下:
+
+token的参数名称为: Authorization, 值为: Bearer token 值
